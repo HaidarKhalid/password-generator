@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: rgb(245, 241, 7);
+}
+#start-btn {
+    background-color: goldenrod;
+    padding: 10px;
+    border: none;
+    font-size: large;
+    border-radius: 4px;
+    transition: 0.15s;
+}
+#start-btn:hover {
+    background-color: rgb(252, 206, 89);
+}
+#start-btn:active {
+    color: rgb(252, 206, 89);
+    background-color: black;
+}
+#out-pass {
+    border: 1px solid black;
+    padding: 5px;
+    word-wrap: break-word
+}
+.contact-me-btn {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
