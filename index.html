@@ -9,32 +9,30 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Password generator <br> (Totally random!)</h1>
-    <a class="contact-me-btn" href="https://instagram.com/y_g_v" target="_blank">Contact me!</a>
+    <h1>Password generator</h1>
+    <p class="note">(Totally random!)</p>
     <div class="info">
-    <ul> 
-        <li>
-            <input min="0" id="many" type="number" placeholder="How long is the password ?" required>
-        </li>  
-        <li>
-            <h3 style="display: inline-block">Do you want letters ?(a b c d e f g h i j k l m n o p q r s t u v w x y z) </h3>
-            <input type="checkbox" name="letters" id="letters-box"> 
-    </li>
-    <li>
-            <h3 style="display: inline-block">Do you want big letters ?(A B C D E F G H I J K L M N O P Q R S T U V W X Y Z) </h3>
+        <div class="input-num">
+        <p>Type password length</p>
+            <input min="0" id="many" type="number" required>
+        </div>
+        <br>
+            <h3 style="display: inline-block">Do you want small letters ?</h3>
+            <input  type="checkbox" name="letters" id="letters-box"> 
+        <br>
+            <h3 style="display: inline-block">Do you want big letters ?</h3>
             <input type="checkbox" name="big-letters" id="big-letters-box"> 
-    </li>
-    <li>
-            <h3 style="display: inline-block">Do you want numbers ?(1 2 3 4 5 6 7 8 9 0) </h3>
-            <input type="checkbox" name="numbers" id="numbers-box"> 
-    </li>
-    <li>
-            <h3 style="display: inline-block">Do you want symbols ?($ # & @ ! - + = ? : *) </h3>
-            <input type="checkbox" name="symbols" id="symbols-box"> 
-    </li> 
-    </ul>
+        <br>
+            <h3 style="display: inline-block">Do you want numbers ?</h3>
+            <input  type="checkbox" name="numbers" id="numbers-box"> 
+        <br>
+            <h3 style="display: inline-block">Do you want symbols ?</h3>
+            <input  type="checkbox" name="symbols" id="symbols-box"> 
+        <br>
     <button onclick="showRandom()" id="start-btn">Get random</button>
-    <div><h2 style="display:inline-block" id="out-pass"></h2><br></div>
+    <div><h2 style="display:inline-block" id="out-pass">Click on Get random</h2><br></div>
+    
+    <a class="contact" href="https://facebook.com/HaidarKhalidKhalifa" target="_blank">Contact me!</a>
 </div>
 </body>
 </html>

@@ -1,10 +1,21 @@
 body {
     text-align: center;
     padding-bottom: 30px;
-    background-color: rgb(245, 241, 7);
+    background-color: rgb(22, 22, 22);
+    color: rgb(0, 110, 0);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#many {
+    background-color: green;
+    border: 1px solid black;
+    color: black;
+    padding: 5px ;
+    width: 50px;
+    font-weight: bold;
 }
 #start-btn {
-    background-color: goldenrod;
+    background-color: rgb(30, 82, 0);
     padding: 10px;
     border: none;
     font-size: large;
@@ -12,19 +23,42 @@ body {
     transition: 0.15s;
 }
 #start-btn:hover {
-    background-color: rgb(252, 206, 89);
+    background-color: rgb(0, 43, 4);
 }
 #start-btn:active {
-    color: rgb(252, 206, 89);
+    color: rgb(8, 68, 0);
     background-color: black;
 }
 #out-pass {
-    border: 1px solid black;
+    border: 3px double rgb(0, 43, 4);
     padding: 5px;
-    word-wrap: break-word
+    word-wrap: break-word;
+    max-width: 70%;
 }
-.contact-me-btn {
+.contact {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: green;
+    height: 50px;
+    padding-top: 20px;
     color: black;
-    font-weight: bold;
-    font-size: large;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    text-decoration: none;
+    transition: 1s;
+}
+.contact:hover {
+    color: green;
+    background-color: black;
+}
+.note {
+    color: rgb(12, 80, 12);
+    font-size: medium;
+}
+.input-num {
+    border: 1px solid green;
+    display: inline-block;
+    padding: 10px 10px 15px 10px;
 }
