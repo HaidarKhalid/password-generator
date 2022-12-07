@@ -5,6 +5,7 @@ body {
     color: rgb(0, 110, 0);
     font-weight: bold;
     font-family: sans-serif;
+    overflow:hidden;
 }
 #many {
     background-color: green;
